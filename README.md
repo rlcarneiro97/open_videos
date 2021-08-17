@@ -1,2 +1,2 @@
 # open_videos
-Automatização de abertura de sites de vídeo
+Automatizando a abertura de sites com streaming de vídeo (animes, netflix, etc).
