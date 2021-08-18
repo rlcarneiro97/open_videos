@@ -1,6 +1,6 @@
 # Open Videos
 
-## Programa para automatizar a abertura das páginas de animes semanais
+### Programa para automatizar a abertura das páginas de animes semanais
 
 #### Problema
 
@@ -61,4 +61,14 @@
 	É bastante comum termos erros para abrir os animes com esses trechos de URL, justamente por conta dessa
 	"não-padronização", mas principalmente por causa de estarmos acessando um back-end que não foi projetado 
 	para servir o cliente através desses tipos de requisições, ao contrário do que ocorre numa API. 
+</p>
+
+#### Outras utilidades
+
+<p align="justify">
+	Além de abrir sites de animes, é possivel usar o programa para abrir qualquer site, pois é utilizado URL's.
+	Isso pode incluir aplicativos desktop, como Netflix. Se você utilizar a versão web, é possivel ver a URL e 
+	simular requisições baseado no padrão visto. Logicamente, é preciso ter a versão paga da Netflix para que 
+	funcione. Esse programa não tem o intuito de piratear nada, ele apenas gerencia e automatiza aberturas de 
+	várias abas de sites em navegadores.
 </p>
