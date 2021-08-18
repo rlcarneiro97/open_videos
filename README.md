@@ -6,7 +6,7 @@
 
 <p align="justify">
 	Eu acompanho vários lancamentos de animes durante a semana, mas não uso um site que gerencie isso.
-	Então, eu vi aquele mesmo processo de ficar pesquisnado qual anime vou assistir, pesquisar no site, 
+	Então, eu vi aquele mesmo processo de ficar pesquisando qual anime vou assistir, pesquisar no site, 
 	e depois procurar o último episódio visto.
 </p>
 <p align="justify">
@@ -31,10 +31,10 @@
 	dele e insere na lista de animes disponíveis até que se identifique a palavra-chave "--servidores--".
 </p>
 <p align="justify">
-	Quando identificado a string "--servidores--", a função é encerrada. Para inicializar a lista de servidores 
-	acontece bem semelhante a função de inicializar a lista de animes, porém não é necessário verificar
-	palavras reservadas abaixo, pois até o momento não exite outras. (Se em versões futuras forem necessárias 
-	mais palavras-chave, essa função será igual a anterior).
+	Quando identificado a string "--servidores--", a função é encerrada. Para inicializar a lista de servidores, 
+	é preciso ter um processo bem semelhante a função de inicializar a lista de animes, porém não é necessário 
+	verificar palavras reservadas abaixo, pois até o momento não exitem outras. (Se em versões futuras forem 
+	necessárias mais palavras-chave, essa função será igual a anterior).
 </p>
 
 #### Na Prática
@@ -51,8 +51,7 @@
 	então é preciso colocar esse trecho da URL: "bleach/" abaixo de "--animes--".
 </p>
 <p align="justify">
-	Se você for mais observador, pode ter percebido que o trecho de "bleach/" está diferente do fim original
-	da URL: "https://openvideos.com/animes/bleach". Isso se deve ao fato de que não há padrões nos nomes de 
+	Se você for mais observador, pode ter percebido que o trecho de "bleach/" está diferente da URL original: "https://openvideos.com/animes/bleach". Isso se deve ao fato de que não há padrões nos nomes de 
 	URL's entre sites/servidores. Em alguns testes manuais, achei um padrão para alguns sites, onde utilizar 
 	o "/" no fim pode resolver alguns desses problemas de compatibilidade. Se não resolver, ele é 
 	simplesmente ignorado.
@@ -60,14 +59,14 @@
 <p align="justify">
 	É bastante comum termos erros para abrir os animes com esses trechos de URL, justamente por conta dessa
 	"não-padronização", mas principalmente por causa de estarmos acessando um back-end que não foi projetado 
-	para servir o cliente através desses tipos de requisições, ao contrário do que ocorre numa API. 
+	para servir o cliente dessa forma, através desses tipos de requisições, ao contrário do que ocorre numa API. 
 </p>
 
 #### Outras utilidades
 
 <p align="justify">
 	Além de abrir sites de animes, é possivel usar o programa para abrir qualquer site, pois é utilizado URL's.
-	Isso pode incluir aplicativos desktop, como Netflix. Se você utilizar a versão web, é possivel ver a URL e 
+	Isso pode incluir aplicações desktop, como Netflix. Se você utilizar a versão web, é possivel ver a URL e 
 	simular requisições baseado no padrão visto. Logicamente, é preciso ter a versão paga da Netflix para que 
 	funcione. Esse programa não tem o intuito de piratear nada, ele apenas gerencia e automatiza aberturas de 
 	várias abas de sites em navegadores.
