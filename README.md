@@ -1,11 +1,11 @@
-# Open Videos
+# Open Vídeos
 
 ### Programa para automatizar a abertura das páginas de animes semanais
 
 #### Problema
 
 <p align="justify">
-	Eu acompanho vários lancamentos de animes durante a semana, mas não uso um site que gerencie isso.
+	Eu acompanho vários lançamentos de animes durante a semana, mas não uso um site que gerencie isso.
 	Então, eu vi aquele mesmo processo de ficar pesquisando qual anime vou assistir, pesquisar no site, 
 	e depois procurar o último episódio visto.
 </p>
@@ -33,7 +33,7 @@
 <p align="justify">
 	Quando identificado a string "--servidores--", a função é encerrada. Para inicializar a lista de servidores, 
 	é preciso ter um processo bem semelhante a função de inicializar a lista de animes, porém não é necessário 
-	verificar palavras reservadas abaixo, pois até o momento não exitem outras. (Se em versões futuras forem 
+	verificar palavras reservadas abaixo, pois até o momento não existem outras. (Se em versões futuras forem 
 	necessárias mais palavras-chave, essa função será igual a anterior).
 </p>
 
@@ -65,8 +65,8 @@
 #### Outras utilidades
 
 <p align="justify">
-	Além de abrir sites de animes, é possivel usar o programa para abrir qualquer site, pois é utilizado URL's.
-	Isso pode incluir aplicações desktop, como Netflix. Se você utilizar a versão web, é possivel ver a URL e 
+	Além de abrir sites de animes, é possível usar o programa para abrir qualquer site, pois é utilizado URL's.
+	Isso pode incluir aplicações desktop, como Netflix. Se você utilizar a versão web, é possível ver a URL e 
 	simular requisições baseado no padrão visto. Logicamente, é preciso ter a versão paga da Netflix para que 
 	funcione. Esse programa não tem o intuito de piratear nada, ele apenas gerencia e automatiza aberturas de 
 	várias abas de sites em navegadores.
