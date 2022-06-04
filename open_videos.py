@@ -65,7 +65,9 @@ def list_servers():
     print('Lista de Servidores: \n')
 
     for server in servers:
-        print(servers.index(server)+1, '-', server)
+        new_server = server.replace('https://', '')
+        new_server = new_server.split('/')
+        print(servers.index(server)+1, '-', new_server[0])
 
 def define_domain():
     
